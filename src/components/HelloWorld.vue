@@ -7,7 +7,8 @@ export default {
   },
   data() {
     return {
-      count: 0
+      count: 0,
+      age:18
     }
   }
 }
@@ -17,6 +18,7 @@ export default {
 <template>
   <div>
   <h1>{{ msg }}</h1>
+  <div>111111111111</div>
  
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
