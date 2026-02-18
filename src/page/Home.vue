@@ -1,19 +1,32 @@
 <template>
-    <div>
-        我是home
+    <div class="home">
+        <h1>首页</h1>
+        <TableComponent />
     </div>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
+import TableComponent from '../components/TableComponent.vue';
 
-            }
-        },
-    }
+export default {
+    name: 'Home',
+    components: {
+        TableComponent
+    },
+    data() {
+        return {
+
+        }
+    },
+}
 </script>
 
-<style  scoped>
+<style scoped>
+.home {
+    padding: 20px;
+}
 
+h1 {
+    margin-bottom: 20px;
+}
 </style>
