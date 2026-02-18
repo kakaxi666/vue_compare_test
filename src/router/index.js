@@ -9,7 +9,7 @@ const routes = [
     path: '/',
     name: 'Home',
     meta: { title: '首页' },
-    component: HelloWorld
+    component: () => import('../page/Home.vue')
   },
   {
     path: '/about',
