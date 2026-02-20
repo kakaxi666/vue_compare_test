@@ -5,6 +5,12 @@ export default {
   components: {
     HelloWorld
     
+  },
+  methods:{
+    send(){
+      console.log('发送了')
+      console.log(this.$store.state.count)
+    }
   }
 }
 </script>
@@ -15,6 +21,8 @@ export default {
       <router-link to="/">首页</router-link> |
       <router-link to="/about">关于</router-link>
     </nav>
+    <div>xx</div>
+    <el-button @click="send">发送</el-button>
     <router-view/>
   </div>
 </template>
