@@ -9,6 +9,7 @@ export default {
   methods:{
     send(){
       console.log('发送了')
+      console.log(this.$store.state.count)
     }
   }
 }
