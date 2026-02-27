@@ -2,7 +2,9 @@
   <div class="about">
     <h1>关于页面</h1>
     <p>这是关于页面的内容</p>
-    <div class="myDiv">12312312</div>
+  <!--
+      删除了页面上的一段文本
+  -->
     <!-- 新增测试表单 -->
     <el-form class="form">
       <el-form-item>
