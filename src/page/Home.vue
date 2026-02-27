@@ -1,6 +1,7 @@
 <template>
     <div class="home">
         <h1>首页</h1>
+        //新增报表业务表格
         <TableComponent />
     </div>
 </template>
